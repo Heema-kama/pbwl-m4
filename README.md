@@ -21,31 +21,6 @@ Project latihan mandiri untuk Modul 4. Project ini dirancang agar praktikan tida
 - Node.js dan NPM (opsional jika hanya menggunakan halaman demo sederhana)
 - Postman
 
-> Paket ini berisi kode aplikasi dan migration, bukan folder `vendor` atau instalasi Laravel inti. Buat project Laravel baru terlebih dahulu, lalu salin isi folder `app`, `database`, `routes`, dan `public` dari paket ini ke project Laravel tersebut.
-
-<!--## A. Membuat project Laravel baru
-
-Buka terminal di folder tempat project akan dibuat:
-
-```bash
-composer create-project laravel/laravel modul4-api
-cd modul4-api
-php artisan install:api
-```
-
-Perintah `install:api` menyiapkan routing API dan Sanctum pada versi Laravel yang mendukung perintah tersebut.
-
-## B. Salin kode paket
-
-Ekstrak ZIP ini. Salin folder berikut ke folder `modul4-api` dan gabungkan jika diminta:
-
-- `app/`
-- `database/`
-- `routes/`
-- `public/modul4-demo/`
-
-Jangan mengganti file inti Laravel secara membabi buta. Jika `routes/api.php` sudah berisi route lain, gabungkan route yang ada dengan kode dari paket.-->
-
 ## C. Konfigurasi database
 
 Buat database MySQL, misalnya `modul4_api`. Sesuaikan `.env`:
